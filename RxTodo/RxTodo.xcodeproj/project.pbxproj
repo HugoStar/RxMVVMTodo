@@ -20,6 +20,8 @@
 		9AAC1FC42199A98A00854093 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC1FC32199A98A00854093 /* SceneCoordinator.swift */; };
 		9AAC1FC82199AFE800854093 /* TaskServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC1FC72199AFE800854093 /* TaskServiceType.swift */; };
 		9AAC1FCA2199B06F00854093 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC1FC92199B06F00854093 /* TaskService.swift */; };
+		9AAC1FCD2199C86A00854093 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC1FCC2199C86A00854093 /* TasksViewController.swift */; };
+		9AAC1FCF2199C87E00854093 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC1FCE2199C87E00854093 /* TasksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		9AAC1FC32199A98A00854093 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		9AAC1FC72199AFE800854093 /* TaskServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskServiceType.swift; sourceTree = "<group>"; };
 		9AAC1FC92199B06F00854093 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		9AAC1FCC2199C86A00854093 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		9AAC1FCE2199C87E00854093 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		9AAC1FA12199A26E00854093 /* RxTodo */ = {
 			isa = PBXGroup;
 			children = (
+				9AAC1FCB2199C79100854093 /* Controllers */,
 				9AAC1FC62199AFBA00854093 /* Services */,
 				9AAC1FBC2199A76000854093 /* Model */,
 				9AAC1FB92199A43200854093 /* Extensions */,
@@ -138,6 +143,15 @@
 				9AAC1FC92199B06F00854093 /* TaskService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9AAC1FCB2199C79100854093 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC1FCC2199C86A00854093 /* TasksViewController.swift */,
+				9AAC1FCE2199C87E00854093 /* TasksViewModel.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		E01EC931324A5428128571DB /* Frameworks */ = {
@@ -259,6 +273,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RxTodo/Pods-RxTodo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
@@ -273,6 +288,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
@@ -300,8 +316,10 @@
 				9AAC1FA32199A26E00854093 /* AppDelegate.swift in Sources */,
 				9AAC1FBE2199A77B00854093 /* TaskItem.swift in Sources */,
 				9AAC1FC42199A98A00854093 /* SceneCoordinator.swift in Sources */,
+				9AAC1FCD2199C86A00854093 /* TasksViewController.swift in Sources */,
 				9AAC1FC82199AFE800854093 /* TaskServiceType.swift in Sources */,
 				9AAC1FC22199A8A500854093 /* SceneTransitionType.swift in Sources */,
+				9AAC1FCF2199C87E00854093 /* TasksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

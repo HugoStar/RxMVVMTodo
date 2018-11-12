@@ -3,6 +3,8 @@ PODS:
     - RxCocoa (~> 4.3)
     - RxSwift (~> 4.3)
   - Differentiator (3.1.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
   - Realm (3.11.1):
     - Realm/Headers (= 3.11.1)
   - Realm/Headers (3.11.1)
@@ -23,6 +25,7 @@ PODS:
 
 DEPENDENCIES:
   - Action (~> 3.4)
+  - "NSObject+Rx"
   - RealmSwift (~> 3.0)
   - RxCocoa (~> 4.0)
   - RxDataSources (~> 3.0)
@@ -33,6 +36,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Action
     - Differentiator
+    - "NSObject+Rx"
     - Realm
     - RealmSwift
     - RxAtomic
@@ -44,6 +48,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Action: 2f461c203c480b17aa99b3bb166e4329ecff6908
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
   Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
   RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
@@ -52,6 +57,6 @@ SPEC CHECKSUMS:
   RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
 
-PODFILE CHECKSUM: 9e95e83417b8b0d4fa6212eae560bf0978e9d255
+PODFILE CHECKSUM: 78407c243078f1356b2d4428a602c659397474b6
 
 COCOAPODS: 1.6.0.beta.2

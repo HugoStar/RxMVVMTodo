@@ -10,6 +10,7 @@ target 'RxTodo' do
 
   	# Community projects
   	pod 'Action', '~> 3.4'
+	pod 'NSObject+Rx'
   
   	# Realm database
   	pod 'RealmSwift', '~> 3.0'
