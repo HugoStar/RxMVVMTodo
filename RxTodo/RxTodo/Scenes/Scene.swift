@@ -8,10 +8,9 @@
 
 import UIKit
 
-class Scene {
+enum Scene {
   
-  func viewController() -> UIViewController {
-    return UIViewController()
-  }
+  case tasks(TasksViewModel)
+  case editTask(EditTaskViewModel)
   
 }

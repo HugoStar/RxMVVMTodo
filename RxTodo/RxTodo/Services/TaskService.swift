@@ -11,8 +11,8 @@ import RealmSwift
 import RxSwift
 import RxRealm
 
-struct TaskService {
-  
+struct TaskService: TaskServiceType {
+
   init() {
     // create a few default tasks
     let realm = try! Realm()
@@ -43,7 +43,7 @@ struct TaskService {
   }
   
   @discardableResult
-  func deleta(task: TaskItem) -> Observable<Void> {
+  func delete(task: TaskItem) -> Observable<Void> {
     let result = withRealm("deleting") { realm -> Observable<Void> in
       try realm.write {
         realm.delete(task)
